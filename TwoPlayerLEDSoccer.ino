@@ -57,10 +57,10 @@ int currentPosition = playerOne;        //Player one starts the game.
 int previousPosition = playerOne + 1;
 int deltaPosition = 0;
 
-int buttonStatePlayerOne = 0;
-int lastButtonStatePlayerOne = 0;
-int buttonStatePlayerTwo = 0;
-int lastButtonStatePlayerTwo = 0;
+int buttonStatePlayerOne = 1;
+int lastButtonStatePlayerOne = 1;
+int buttonStatePlayerTwo = 1;
+int lastButtonStatePlayerTwo = 1;
 
 void setup() {
 	pinMode(4, 1);
